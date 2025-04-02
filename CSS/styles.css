@@ -1,4 +1,4 @@
-body {
+body { 
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -19,7 +19,7 @@ header {
 }
 
 header img {
-    max-width: 100%; /* Expand the width of the header image */
+    max-width: 99%; /* Reduced width of the header image */
     height: auto;
     margin-top: 0;
     border-radius: 8px;
