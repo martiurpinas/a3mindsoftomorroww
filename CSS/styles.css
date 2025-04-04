@@ -1,14 +1,11 @@
 body {
-    background-image: url: ('./Imagenes/banner-2.jpg');
-    background-size: cover; /* Ajusta para que cubra todo */
-    background-position: center; /* Centra la imagen */
-    background-repeat: no-repeat; /* Evita que se repita */
-    height: 100px; /* Altura completa de la ventana */
-    margin: 0;
-    width: 92%;
-    font-family: 'Arial', sans-serif;
-    padding: 1px 
-  }
+    height: 100%; /* Full height for the body */
+    margin: 0; /* Remove default margin */      
+    padding: 0; /* Remove default padding */
+    background-color: #fff; /* White background for the body */
+    color: #000; /* Black text for contrast */
+    font-family: 'Arial', sans-serif; /* Default font family */ 
+    }
 
 header {
     background-image: url('./Imagenes/banner-2.jpg'); /* Add the background image */
