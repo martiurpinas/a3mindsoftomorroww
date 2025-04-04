@@ -5,26 +5,12 @@ body {
     background-repeat: no-repeat; /* Evita que se repita */
     height: 100px; /* Altura completa de la ventana */
     margin: 0;
+    width: 92%;
     font-family: 'Arial', sans-serif;
+    padding: 1px 
   }
-  
-header {
-    background-size: cover; /* Ensure the image covers the entire header */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    height: 100vh; /* Set the height of the header to full viewport */
-    display: flex;
-    align-items: center; /* Center the text vertically */
-    justify-content: center; /* Center the text horizontally */
-    color: #fff; /* White text for contrast */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a shadow for better readability */
-    font-family: 'Roboto', sans-serif;
-    font-size: 2.5rem;
-    font-weight: bold;
-    text-align: center;
-}
 
-header h1 {
+  header h1 {
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 1rem;
