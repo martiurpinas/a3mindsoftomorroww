@@ -307,64 +307,64 @@ footer {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 720px) {
+    body {
+      font-size: 16px;
+      text-align: center;
+    }
+  
     .container {
-      padding: 40px 20px;
+      padding: 20px;
       flex-direction: column;
       align-items: center;
     }
   
-    .text-section,
-    .image-section {
+    .section {
+      flex-direction: column;
+      margin-bottom: 40px;
+    }
+  
+    .text, .image {
       width: 100%;
-      text-align: center;
+      padding: 10px 0;
     }
   
-    .text-section h1 {
-      font-size: 2em;
-    }
-  
-    .text-section p {
-      font-size: 1em;
-    }
-  
-    .image-section img {
-      max-width: 100%;
-    }
-  
-    .caption {
-      text-align: center;
-      margin-right: 0;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .text-section h1 {
-      font-size: 1.8em;
-    }
-  
-    .text-section p,
-    .caption {
-      font-size: 1em;
-    }
-  
-    .container {
-      padding: 30px 15px;
+    .programs-grid {
+      display: flex;
+      flex-direction: column;
       gap: 20px;
     }
-  }
   
-  @media (max-width: 480px) {
-    .text-section h1 {
-      font-size: 1.5em;
+    .grid-item {
+      width: 100%;
     }
   
-    .text-section p {
-      font-size: 0.95em;
+    img {
+      max-width: 100%;
+      height: auto;
     }
   
-    .caption {
-      font-size: 1em;
+    .cta-button {
+      width: 100%;
+      font-size: 18px;
+      padding: 15px;
+    }
+  
+    .header-title {
+      font-size: 24px;
+    }
+  
+    .subtitle {
+      font-size: 18px;
+    }
+  
+    .icons-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .icon-card {
+      margin: 10px 0;
     }
   }
   
