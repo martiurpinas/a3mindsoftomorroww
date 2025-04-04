@@ -1,5 +1,5 @@
 body {
-    background-image: url('./Imagenes/banner-2.jpg');
+    background-image: url: ('./Imagenes/banner-2.jpg');
     background-size: cover; /* Ajusta para que cubra todo */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que se repita */
@@ -37,25 +37,49 @@ main {
     padding: 2rem 1rem;
 }
 
-#programs, #studio, #cta {
+#programs {
+    margin-bottom: 2rem;
+    text-align: center;
+    background-color: #63b658; /* Green background */
+    padding: 2rem; /* Add padding for better spacing */
+}
+
+#programs table {
+    margin: 0 auto;
+    border-spacing: 20px; /* Add spacing between images */
+}
+
+#programs img {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#studio, #cta {
     margin-bottom: 2rem;
     text-align: center;
 }
 
 #programs h2, #studio h2, #cta h2 {
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 1rem;
     color: #222;
 }
 
-.program-images, .cta-images {
+.programs {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
     flex-wrap: wrap;
+    background-color: #63b658
 }
 
+.cta-images {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
 .program-images img, .cta-images img {
     max-width: 200px;
     height: auto;
@@ -84,7 +108,7 @@ footer {
     font-size: 0.9rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 720px) {
     main {
         padding: 1rem;
     }
