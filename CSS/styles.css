@@ -8,7 +8,7 @@ body {
     }
 
 header {
-    background-image: url('./Imagenes/banner-2.jpg'); /* Add the background image */
+    background-image: url('../Imagenes/banner-2.jpg'); /* Corrected the file path */
     background-size: cover; /* Ensure the image covers the entire header */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
@@ -307,20 +307,64 @@ footer {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 720px) {
-    main {
-        padding: 1rem;
+@media (max-width: 1024px) {
+    .container {
+      padding: 40px 20px;
+      flex-direction: column;
+      align-items: center;
     }
-
-    section {
-        padding: 1rem;
+  
+    .text-section,
+    .image-section {
+      width: 100%;
+      text-align: center;
     }
-
-    .program-images img, .cta-images img {
-        max-width: 100%;
+  
+    .text-section h1 {
+      font-size: 2em;
     }
-
-    #studio img {
-        max-width: 100%;
+  
+    .text-section p {
+      font-size: 1em;
     }
-}
+  
+    .image-section img {
+      max-width: 100%;
+    }
+  
+    .caption {
+      text-align: center;
+      margin-right: 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .text-section h1 {
+      font-size: 1.8em;
+    }
+  
+    .text-section p,
+    .caption {
+      font-size: 1em;
+    }
+  
+    .container {
+      padding: 30px 15px;
+      gap: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .text-section h1 {
+      font-size: 1.5em;
+    }
+  
+    .text-section p {
+      font-size: 0.95em;
+    }
+  
+    .caption {
+      font-size: 1em;
+    }
+  }
+  
