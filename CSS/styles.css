@@ -280,6 +280,21 @@ footer {
     border-radius: 8px;
 }
 
+#four-photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; /* Add spacing between the photos */
+    padding: 2rem;
+}
+
+#four-photos img {
+    max-width: 200px; /* Set a consistent width for the photos */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 @media (max-width: 720px) {
     main {
         padding: 1rem;
