@@ -78,11 +78,11 @@ main {
     background-color: #4da6ff; /* Light blue background */
     color: #000; /* Black text */
     text-align: center;
-    padding: 1rem; /* Further reduce padding */
+    padding: 0.5rem; /* Further reduce padding */
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
-    margin-bottom: 0; /* Ensure no bottom margin */
+    margin-bottom: -5px; /* Slight overlap to bring sections closer */
 }
 
 .cta-images {
@@ -227,7 +227,7 @@ footer {
     text-align: center;
     padding: 1rem 0;
     font-size: 0.9rem;
-    margin-top: -10px; /* Slight overlap to bring sections closer */
+    margin-top: -15px; /* Increase overlap to bring sections even closer */
 }
 
 #creativity-section {
