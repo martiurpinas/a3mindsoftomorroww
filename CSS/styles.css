@@ -100,6 +100,56 @@ main {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+#enrichment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+.enrichment-content {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.enrichment-text {
+    flex: 1;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.enrichment-text h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.enrichment-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.enrichment-image {
+    flex: 1;
+    text-align: center;
+}
+
+.enrichment-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.enrichment-image .caption {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-style: italic;
+    color: #555;
+}
+
 footer {
     background: #333;
     color: #fff;
